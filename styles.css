@@ -9,46 +9,40 @@ body {
     background-color: #F9FAFC;
 }
 
-ul {
-    list-style: none;
-    margin-top: 20px;
-}
-
-li {
-    margin: 5px 10px;;
-}
-
-a {
-    color: #69696A;
+.company-link {
+    color: #000;
     text-decoration: none;
-}
-
-h1 {
+    font-size: 18px;
     margin-left: 10px;
-    margin-top: 30px;
-
 }
 
-section {
-    border-left: 2px solid #69696A;
-    margin: 20px 15px;
+.nav-item {
+    margin: 10px 10px;
 }
 
-p {
+.link {
+    text-decoration: none;
     color: #69696A;
-    margin-left: 10px;
 }
 
-.btn-container {
+.button {
     display: block;
-    margin: 10px;
-}
-
-button {
     background-color: #000;
     color: #FFF;
-    width: 100%;
-    border: none;
-    border-radius: 48px;
+    border-radius: 20px;
+    text-align: center;
     padding: 10px;
+    margin: 5px;
+}
+
+.about-title {
+    font-size: 32px;
+    margin: 20px 10px;
+}
+
+.about-text {
+    border-left: 3px solid #69696A;
+    padding-left: 10px;
+    margin-left: 10px;
+    color: #69696A;
 }
